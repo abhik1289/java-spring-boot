@@ -8,7 +8,7 @@ public class AvikApplication {
 
 	public static void main(String[] args) {
 
-		System.out.println("Hello Abhik");
+		System.out.println("Hello Avik");
 
 		SpringApplication.run(AvikApplication.class, args);
 	}

@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class EmployeeDto {
 
-    private String id;
+    private Long id;
     private String name;
     private String email;
     private Integer age;
@@ -15,7 +15,7 @@ public class EmployeeDto {
 
     }
 
-    public EmployeeDto(String id, String name, String email, Integer age, LocalDate joiningDate, Boolean isActive) {
+    public EmployeeDto(Long id, String name, String email, Integer age, LocalDate joiningDate, Boolean isActive) {
         this.id = id;
         this.name = name;
         this.email = email;
@@ -24,7 +24,7 @@ public class EmployeeDto {
         this.isActive = isActive;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -48,7 +48,7 @@ public class EmployeeDto {
         this.name = name;
     }
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
